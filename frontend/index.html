@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==================== BOXICONS ====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--==================== CSS ==================== -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="todo-container">
+            <header>
+                <div class="dateLeft">
+                    <div id="dateNumber">29</div>
+                    <div>
+                        <div id="dateMonth">Sept</div>
+                        <div id="dateYear">2021</div>
+                    </div>
+                </div>
+                <div id="dateText">Miercoles</div>
+            </header>
+            <main>
+                <div class="addTaskButton-container">
+                    <button class="addTaskButton">Añadir Tarea</button>
+                    <div>
+                        <span><i class='bx bxs-moon dark-button'></i></span>
+                        <span><i class='bx bxs-trash-alt trash-icon-delete-all'></i></span>
+                        <button class="orderButton">Ordenar</button>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="addTask-container">
+                        <input type="text" name="taskText" autocomplete="off" placeholder="Nueva Tarea" class="inputNewTask">
+                        <div>
+                            <span class="form-span">Nivel:</span>
+                            <select id="task-levels" name="task-levels">
+                                <option value="Bajo" class="nivel-bajo">Bajo</option>
+                                <option value="Medio" class="nivel-medio">Medio</option>
+                                <option value="Alto" class="nivel-alto">Alto</option>
+                            </select>
+                        </div>
+                        <span><i class='bx bx-plus-medical addNewTaskButton'></i></span>
+                    </div>
+                </div>
+
+                <div class="tasks-container">
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <!--==================== SPINNER ====================-->
+    <div class="div-spinner-container">
+        <div class="loader">Loading...</div>
+    </div>
+
+    <!--==================== Java Script ==================== -->
+    <script src="./js/script.js"></script>
+    <script src="./js/modules/date/date.js"></script>
+    <script src="./js/modules/darkLightTheme/darkLightTheme.js"></script>
+
+
+    
+</body>
+</html>

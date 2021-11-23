@@ -1,0 +1,21 @@
+{
+  "name": "app-to-do",
+  "version": "1.0.0",
+  "description": "A Simple App To-Do that help you to Remember the Tasks of the day",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./backend/routes/index.js",
+    "start": "cross-env NODE_ENV=production node ./backend/routes/index.js"
+  },
+  "author": "Luis Jose Mendez",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.4",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0"
+  }
+}
