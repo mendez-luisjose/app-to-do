@@ -12,7 +12,8 @@
 - All the tasks are saved using a MongoDB Database and a Node.js Server
 ### This App was builded using the following technologies
 - HTML5, CSS and JavaScript
-- Node.js and MongoDB Database
+- JavaScript Classes, Methods, Fetch, Async/Await, API Rest, Modules, and the Manage of the DOM
+- Node.js, MongoDB Database and the Framework Express
 
 Note: the App UI is in Spanish
 
